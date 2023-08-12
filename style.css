@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,500&display=swap');
+body{
+    font-family: 'roboto', sans-serif;
+background-color: rgb(222, 228, 235);
+color: rgb(104, 99, 99);
+
+}
+
+
+.imggg img{
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgb(29, 157, 169);
+    max-width: 200px
+}
+.infa{
+    border:  solid rgb(129, 211, 211);
+    border-radius: 24px;
+    background-color: rgb(177, 225, 225);
+    padding: 15px;
+    margin-bottom: 15px;
+    display:flex;
+}
+.infa h1{
+    
+    text-align: center;
+
+}
+.infa h2{
+    text-align: center;
+    margin-top: 70px;
+}
+.osebe img{
+    border-radius: 24px;
+    width: 140px;
+   margin-right: 20px;}
+.osebe li{
+list-style:none;
+margin-left: 0;
+padding-left: 15px;
+text-decoration: underline;
+margin-right: 40px;
+}
+
+
+.container{
+    padding-top:  20px; ;
+max-width: 700px;
+    margin: auto;
+}
+.osebe{
+    
+    text-align: center;
+    display: flex;
+}
+.osebe2{
+    display: flex;
+    text-align: center;
+}
+.imgosebe2 img{
+    border-radius: 24px;
+    width: 140px;
+   margin-right: 20px;
+}
+.textosebe2 li{
+list-style:none;
+margin-left: 0;
+padding-left: 15px;
+text-decoration: underline;
+margin-right: 40px;
+}
+.hobby img{
+    border-radius: 24px;
+    margin-top: 20px; ;
+    width:150px;
+
+
+}
+.hobby{
+    margin-top: 30px;
+    display:flex
+}
+.hobby li{
+    padding:20px;
+    list-style: none;
+    border: solid rgb(129, 211, 211) 1px;
+    border-radius: 24px;
+    background-color: rgb(177, 225, 225);
+    margin: 20px;
+}
+.forms{
+    display: flex;
+    margin: 20px;
+
+}
+.forms input{
+    background: transparent;
+    border: none;
+    border-bottom:solid 1px gray ;
+    width: 90%;
+
+}
+
+
+.btn{
+    text-align: center;
+}
+.poka{
+    display: block;
+    text-align:center;
+    margin: 50px;
+    padding: 40px;
+}
+.poka img{
+    
+
+    border-radius: 24px;
+    width: 140px;
+   margin-right: 20px;}
+   .close{
+    padding:20px;
+    list-style: none;
+    border: solid rgb(129, 211, 211) 1px;
+    border-radius: 24px;
+    background-color: rgb(177, 225, 225);
+    margin: 20px;
+   }
